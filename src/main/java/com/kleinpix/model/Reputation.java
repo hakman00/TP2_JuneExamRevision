@@ -24,6 +24,7 @@ public class Reputation {
     public int getValue() {
         return value;
     }
+
     //now create Builder Pattern
     public static class Builder{
         private int id;
@@ -47,7 +48,9 @@ public class Reputation {
         }
     }
 
+    //create Builder Pattern constructor
     public Reputation(Builder builder) {
+        this.id = builder.id;
         this.date = builder.date;
         this.value = builder.value;
     }

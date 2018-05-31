@@ -2,7 +2,7 @@ package com.kleinpix.services;
 
 import com.kleinpix.model.Reputation;
 import com.kleinpix.repositories.ReputationRepository;
-import com.kleinpix.repositories.ReputationRepositoryImpl;
+import com.kleinpix.repositories.Implementation.ReputationRepositoryImpl;
 
 public class ReputationServiceImpl implements ReputationService{
 

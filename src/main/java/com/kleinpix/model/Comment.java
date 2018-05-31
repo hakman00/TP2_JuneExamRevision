@@ -132,4 +132,20 @@ public class Comment {
             return new Comment(this);
         }
     }
+/*
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Comment comment = (Comment) o;
+
+        return id.equals(comment.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }
+    */
 }

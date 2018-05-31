@@ -1,11 +1,12 @@
-package com.kleinpix.repositories;
+package com.kleinpix.repositories.Implementation;
 
 import com.kleinpix.model.Reputation;
+import com.kleinpix.repositories.ReputationRepository;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class ReputationRepositoryImpl implements ReputationRepository{
+public class ReputationRepositoryImpl implements ReputationRepository {
 
     private static ReputationRepositoryImpl repository = null;
 
